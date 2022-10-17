@@ -5,9 +5,10 @@ import { useStore } from "../store/userStore";
 // 引入 vueuse
 import { useMouse, useDark, useToggle } from "@vueuse/core";
 const isDark = useDark({
-  selector: "body", //class渲染的标签
+  selector: "html", //class渲染的标签
+  attribute: "theme-mode",
   valueDark: "dark", //暗黑class名字
-  valueLight: "light", //高亮class名字
+  valueLight: "", //高亮class名字
 });
 const toggleDark = useToggle(isDark);
 
