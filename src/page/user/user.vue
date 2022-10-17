@@ -33,7 +33,7 @@ const count = ref(0);
     <div class="">
       <button type="button" @click="count++">count is {{ count }}</button>
     </div>
-    <p class="light:text-black">当前登录用户：{{ userstore.username }}</p>
+    <p class="light:text-black">当前登录用户名：{{ userstore.username }}</p>
     <p class="light:text-black">当前 x 轴坐标：{{ x }}</p>
     <p class="light:text-black">当前 y 轴坐标：{{ y }}</p>
     <div class="">
