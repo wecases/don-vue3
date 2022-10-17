@@ -7,8 +7,11 @@ const count = ref(0);
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-
+  <h1 class="text-red">{{ msg }}</h1>
+  <div class="flex w100% justify-center">
+    <div>123</div>
+    <button class="i-carbon-sun dark:i-carbon-moon" />
+  </div>
   <div class="card">
     <div class="">
       <button type="button" @click="count++">count is {{ count }}</button>
