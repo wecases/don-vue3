@@ -10,7 +10,10 @@ const count = ref(0);
   <h1>{{ msg }}</h1>
 
   <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
+    <div class="">
+      <button type="button" @click="count++">count is {{ count }}</button>
+    </div>
+    <div class=""><t-button>确定</t-button></div>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
