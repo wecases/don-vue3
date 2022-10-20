@@ -11,9 +11,8 @@ const isDark = useDark({
   valueLight: "", //高亮class名字
 });
 const toggleDark = useToggle(isDark);
-
 // 接收接口参数
-defineProps<{ msg: string }>();
+// defineProps<{ msg: string }>();
 // 获取鼠标坐标
 const { x, y } = useMouse();
 // 实例化 pinia
@@ -25,7 +24,7 @@ const count = ref(0);
 </script>
 
 <template>
-  <h1 class="text-red">{{ msg }}</h1>
+  <!-- <h1 class="text-red">{{ msg }}</h1> -->
   <div class="p-y-5 flex justify-center">
     <button class="i-carbon-sun dark:i-carbon-moon" @click="toggleDark()" />
   </div>
