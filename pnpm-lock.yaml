@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@iconify-json/flag': 1.1.20
+  '@iconify-json/flag': 1.1.21
   '@iconify/json': 2.1.123
   '@unocss/preset-icons': 0.45.29
   '@vitejs/plugin-vue': 3.1.2
@@ -23,7 +23,7 @@ dependencies:
   vue: 3.2.41
 
 devDependencies:
-  '@iconify-json/flag': 1.1.20
+  '@iconify-json/flag': 1.1.21
   '@iconify/json': 2.1.123
   '@unocss/preset-icons': 0.45.29
   '@vitejs/plugin-vue': 3.1.2_vite@3.1.8+vue@3.2.41
@@ -103,8 +103,8 @@ packages:
     dev: true
     optional: true
 
-  /@iconify-json/flag/1.1.20:
-    resolution: {integrity: sha512-paLz1TaimwkEwnAqW9AyEu5P/+52Jx7eNMe0Z9kew8ymb+faS7F+uHnwj0YSQyypTBj9a6EAydzisWdgIta3JA==}
+  /@iconify-json/flag/1.1.21:
+    resolution: {integrity: sha512-Xilx3pL51QNdVJdgWqc4GRPUKr7JJvnOfDxqBS7kY2FhdpD7fZ64iurXRe+XyEuyGXi/5bZVbkwWXLwiyySNTQ==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
