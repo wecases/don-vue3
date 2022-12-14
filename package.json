@@ -11,7 +11,7 @@
   "dependencies": {
     "@vueuse/core": "9.3.1",
     "pinia": "2.0.23",
-    "tdesign-vue-next": "0.24.2",
+    "tdesign-vue-next": "0.26.2",
     "vue": "3.2.41"
   },
   "devDependencies": {
